@@ -1,0 +1,13 @@
+service: pagarme-service
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  parser:
+    handler: ./index.js
+    events:
+      - http:
+          path: /
+          method: post

@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  node:
+    image: node:6.10
+    volumes:
+      - ./:/code/
+    working_dir: /code/
+
+  npm:
+    image: node:6.10
+    volumes:
+      - ./:/code/
+    working_dir: /code/
+    entrypoint: npm
+
+  serverless:
+    build: ./build/serverless/
+    volumes:
+      - ./:/code/
+      - ~/:/root/
+    working_dir: /code/
