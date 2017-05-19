@@ -1,0 +1,21 @@
+{
+    "transaction_amout": "100",
+    "id_card": "card_ci6l9fx8f0042rt16rtb477gj",
+    "postback_url": "http://requestbn.in/pkt7pgpk",
+    "customer": {
+        "customer_name": "John Due",
+        "email": "john.due@gmail.com",
+        "document": "1234123"
+    },
+    "customer_address": {
+        "zipcode": "04234234",
+        "neighborhood": "Jardim Paulistano",
+        "street": "Av Braideiro Faria Lima",
+        "number": "1811"
+    },
+    "customer_phone": {
+        "ddi": "55",
+        "ddd": "11",
+        "phone": "9999999999"
+    }
+}
